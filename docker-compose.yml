@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+    # サービス名は自由に設定
+    reqif:
+        build:
+            # 読み込むファイル名が`Dockerfile`ではない場合contextに相対パス、dockerfileにファイル名を記載
+            context: ./app
+            dockerfile: Dockerfile
+        # データを永続化させる場合の設定。`host:container`でパスを記載
+        volumes:
+            - static_volume:/app
+        tty: true
+
+# トップレベルに書く「名前付きvolumes」は複数サービスから参照できる
+volumes:
+    static_volume:

@@ -1,0 +1,25 @@
+<reqif:ReqIF xmlns:reqif="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd">
+  <reqif:TheHeader version="1.0" comment="ReqIF file generated from CSV data"/>
+  <reqif:CoreContent>
+    <reqif:Requirement IDENTIFIER="ID">
+      <reqif:Name>Name</reqif:Name>
+      <reqif:Description>Description</reqif:Description>
+    </reqif:Requirement>
+    <reqif:Requirement IDENTIFIER="RQ001">
+      <reqif:Name>Login page</reqif:Name>
+      <reqif:Description>Users should be able to log in to the application using their credentials.</reqif:Description>
+    </reqif:Requirement>
+    <reqif:Requirement IDENTIFIER="RQ002">
+      <reqif:Name>Search function</reqif:Name>
+      <reqif:Description>Users should be able to search for products based on keywords.</reqif:Description>
+    </reqif:Requirement>
+    <reqif:Requirement IDENTIFIER="RQ003">
+      <reqif:Name>Shopping cart</reqif:Name>
+      <reqif:Description>Users should be able to add and remove items from their shopping cart.</reqif:Description>
+    </reqif:Requirement>
+    <reqif:Requirement IDENTIFIER="RQ004">
+      <reqif:Name>Checkout process</reqif:Name>
+      <reqif:Description>Users should be able to enter their billing and shipping information and place an order.</reqif:Description>
+    </reqif:Requirement>
+  </reqif:CoreContent>
+</reqif:ReqIF>
