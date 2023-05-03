@@ -1,5 +1,5 @@
-ID,Name,Description
-RQ001,Login page,Users should be able to log in to the application using their credentials.
-RQ002,Search function,Users should be able to search for products based on keywords.
-RQ003,Shopping cart,Users should be able to add and remove items from their shopping cart.
-RQ004,Checkout process,Users should be able to enter their billing and shipping information and place an order.
+ID,Text,Type,SpecType
+REQ-001,The system shall be user-friendly.,Requirement Type 1,Functional Requirement
+REQ-002,The system shall have a login feature.,Requirement Type 2,Functional Requirement
+REQ-003,The system shall store user data securely.,Requirement Type 3,Non-functional Requirement
+REQ-004,The system shall support multiple languages.,Requirement Type 4,Non-functional Requirement
